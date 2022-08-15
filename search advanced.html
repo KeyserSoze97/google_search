@@ -12,5 +12,36 @@
             <li><a href="index.html">Головна</a></li>
         </ul>
     </header>
+    <p>Розширений пошук</p>
+    <div id="line-border"></div>
+    <div class="main-area">
+        <div class="advanced-lines">
+            <p>Знайти сторінки, що містять...</p>
+            <div id="space"></div>
+            <p class="vanish">Як це зробити в полі пошуку</p>
+        </div>
+        <form action="https://google.com/search">
+        <div class="advanced-lines">
+            <label class="label" for="1q">усі ці слова:</label>
+            <input class="search-area" type="text" value id="1q" name="as_q">
+            <span class="vanish">Введіть важливі слова: триколірний рет-тер’єр</span>
+        </div>
+        <div class="advanced-lines">
+            <label class="label" for="2epq">точне слово або фразу:</label>
+            <input class="search-area" type="text" value id="2epq" name="as_epq">
+            <span class="vanish">Візьміть точні слова в лапки: "рет-тер’єр"</span>
+        </div>
+        <div class="advanced-lines">
+            <label class="label" for="3oq">будь-яке з цих слів:</label>
+            <input class="search-area" type="text" value id="3oq" name="as_oq">
+            <span class="vanish">Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</span>
+        </div>
+        <div class="advanced-lines">
+            <label class="label" for="4eq">жодне з цих слів:</label>
+            <input class="search-area" type="text" value id="4eq" name="as_eq">
+            <span class="vanish">Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</span>
+        </div>
+        </form>
+    </div>
 </body>
 </html>
