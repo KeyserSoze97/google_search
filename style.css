@@ -34,3 +34,47 @@ a{
 #logo-advanced{
     position: absolute; left: 20px; top: 20px;
 }
+
+.central-block{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 5vw;
+}
+
+.central-logo{
+    width: 272px;
+    height: 100px;
+}
+
+.search-field{
+    text-align: center;
+}
+.form-1{
+    min-width: 300px
+}
+
+
+
+.field{
+    width: 38vw ;
+    min-width: 300px;
+    border: #cacaca 1px solid;
+    border-radius: 20px;
+    height: 45px;
+    padding-left: 40px;
+}
+
+.down-buttons input{
+    margin: 12px 6px;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+#down-word{
+    position: relative; left: 215px; bottom: 20px;
+    color: #4285f4;
+}
