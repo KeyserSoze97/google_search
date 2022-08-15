@@ -152,3 +152,19 @@ p{
     width: 363px;
 }
 
+#last-space{
+    width: 188px
+}
+#last-div{
+    width: 35vw;
+    text-align: right;
+}
+#last-div input{
+    background-color: #4d90fe;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: solid 1px #4d90fe;
+    border-radius: 3px;
+}
