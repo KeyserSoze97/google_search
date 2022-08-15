@@ -1,0 +1,36 @@
+@media (max-width: 179px) {
+    #logo-advanced{display: none;}
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+header ul{
+    margin: 10px 20px;
+    min-width: 125px;
+    text-align: end;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0px 6px;
+    font-size: 14px;
+    min-width: 125px;   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo-advanced{
+    position: absolute; left: 20px; top: 20px;
+}
